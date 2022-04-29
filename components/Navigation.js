@@ -10,7 +10,7 @@ export default function Navigation() {
       ['Projects', '/projects'],
       ['About', '/about'],
     ].map(([title, url]) => (
-      <a href={url} className="rounded-lg px-3 py-2 text-slate-700 hover:bg-slate-200 hover:text-slate-900">{title}</a>
+      <Link href={url} ><a className="rounded-lg px-3 py-2 text-slate-700 hover:bg-slate-200 hover:text-slate-900">{title}</a></Link>
     ))}
     </nav>
   )
